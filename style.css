@@ -5,9 +5,27 @@ body{
   padding: 0;
 }
 h1{
-  margin:1px ;
+  margin:0 auto;
   background:#000;
   color:white;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
+}
+.products{
+  max-width: 1240px;
+  margin:50px auto;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+
+}
+.product{
+  background: whitesmoke;
+  border: 1px solid burlywood;
+  padding: 10px;
+  border-radius: 10px;
+}
+img{
+  width: 100px;
+  height:150px;
 }
